@@ -1,5 +1,7 @@
 # Churn Telco — Mini Project Machine Learning (Supervised)
 
+https://churn-telco-palpale24.streamlit.app/
+
 Prediksi pelanggan yang akan berhenti berlangganan (**churn**) memakai dataset
 Telco Customer Churn: 7.043 pelanggan, 21 kolom, churn rate 26,5%.
 
