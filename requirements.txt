@@ -1,7 +1,10 @@
-pandas>=2.0
-numpy>=1.26
-matplotlib>=3.8
-seaborn>=0.13
-scikit-learn>=1.4
-joblib>=1.3
-streamlit>=1.35
+# Versi dikunci persis seperti yang dipakai saat notebook dieksekusi.
+# Tujuannya supaya model .joblib (dibuat dengan scikit-learn 1.9.1) bisa
+# dibuka di Streamlit Cloud tanpa peringatan InconsistentVersionWarning.
+pandas==3.0.5
+numpy==2.5.3
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.9.1
+joblib==1.6.0
+streamlit==1.65.0
